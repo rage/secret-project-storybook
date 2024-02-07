@@ -11,11 +11,12 @@
   background: #f9f9f9;
   min-height: 100px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   margin: 0 auto;
   max-width: 1000px;
+  justify-items: center;
 `,Likert=emotion_styled_browser_esm.Z.div`
-  width: 150px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,6 +48,7 @@
     color: ${({active})=>active?"#ffffff":"#313947"};
     text-align: center;
     line-height: 1.2;
+    padding: 0 0.5rem;
   }
 `,LikertScale=({disabled,question,answerRequired,selectedOption,setSelectedOption})=>{const{t}=(0,es.$G)(),arr=[{text:t("likert-scale-strongly-disagree"),image:(0,jsx_runtime.jsx)(stronglyDisagree_namespaceObject,{})},{text:t("likert-scale-disagree"),image:(0,jsx_runtime.jsx)(disagree_namespaceObject,{})},{text:t("likert-scale-neither-agree-nor-disagree"),image:(0,jsx_runtime.jsx)(neutral_namespaceObject,{})},{text:t("likert-scale-agree"),image:(0,jsx_runtime.jsx)(agree_namespaceObject,{})},{text:t("likert-scale-strongly-agree"),image:(0,jsx_runtime.jsx)(stronglyAgree_namespaceObject,{})}];return(0,jsx_runtime.jsxs)(Wrapper,{children:[(0,jsx_runtime.jsxs)(Question,{children:[question,answerRequired&&" *"]}),(0,jsx_runtime.jsx)(Likerts,{children:arr.map(((option,n)=>(0,jsx_runtime.jsxs)(Likert,{onClick:()=>{disabled||setSelectedOption(n+1)},active:selectedOption===n+1,children:[option.image,(0,jsx_runtime.jsx)("p",{className:"likert-scale-text",children:option.text})]},n+1)))})]})};LikertScale.displayName="LikertScale",LikertScale.defaultProps={disabled:!1};const PeerReview_LikertScale=LikertScale;try{LikertScale.displayName="LikertScale",LikertScale.__docgenInfo={description:"",displayName:"LikertScale",props:{disabled:{defaultValue:{value:"false"},description:"",name:"disabled",required:!1,type:{name:"boolean"}},question:{defaultValue:null,description:"",name:"question",required:!0,type:{name:"string"}},answerRequired:{defaultValue:null,description:"",name:"answerRequired",required:!0,type:{name:"boolean"}},selectedOption:{defaultValue:null,description:"",name:"selectedOption",required:!0,type:{name:"number | null"}},setSelectedOption:{defaultValue:null,description:"",name:"setSelectedOption",required:!0,type:{name:"(value: number | null) => void"}}}},"undefined"!=typeof STORYBOOK_REACT_CLASSES&&(STORYBOOK_REACT_CLASSES["src/components/PeerReview/LikertScale.tsx#LikertScale"]={docgenInfo:LikertScale.__docgenInfo,name:"LikertScale",path:"src/components/PeerReview/LikertScale.tsx#LikertScale"})}catch(__react_docgen_typescript_loader_error){}}}]);
-//# sourceMappingURL=LikertScale-stories.a327611a.iframe.bundle.js.map
+//# sourceMappingURL=LikertScale-stories.7909d335.iframe.bundle.js.map
