@@ -31,4 +31,4 @@ import{s as C,j as E}from"./emotion-serialize.browser.esm-Xr4f5Ts3.js";import"./
   animation-iteration-count: infinite, 1;
   animation-delay: 400ms;
   animation-fill-mode: forwards;
-`,h=e=>E.jsx(D,{className:q,...e});try{h.displayName="Spinner",h.__docgenInfo={description:"",displayName:"Spinner",props:{variant:{defaultValue:null,description:"",name:"variant",required:!0,type:{name:"enum",value:[{value:'"large"'},{value:'"small"'},{value:'"medium"'}]}},disableMargin:{defaultValue:null,description:"",name:"disableMargin",required:!1,type:{name:"boolean"}}}}}catch{}export{h as S};
+`,h=e=>E.jsx(D,{className:q,...e});try{h.displayName="Spinner",h.__docgenInfo={description:"",displayName:"Spinner",props:{variant:{defaultValue:null,description:"",name:"variant",required:!0,type:{name:"enum",value:[{value:'"large"'},{value:'"medium"'},{value:'"small"'}]}},disableMargin:{defaultValue:null,description:"",name:"disableMargin",required:!1,type:{name:"boolean"}}}}}catch{}export{h as S};
