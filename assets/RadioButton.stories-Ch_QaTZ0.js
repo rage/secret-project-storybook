@@ -1,4 +1,4 @@
-import{j as a}from"./emotion-serialize.browser.esm-Xr4f5Ts3.js";import{c as l,a as t}from"./emotion-css.esm-DPNEF3j8.js";import{p as r}from"./typography-Bdnj4Bgw.js";import{b as u}from"./theme-QoxxbpC5.js";import"./index-CDs2tPxN.js";const f=l`
+import{j as a}from"./emotion-serialize.browser.esm-Xr4f5Ts3.js";import{c as l,a as t}from"./emotion-css.esm-DPNEF3j8.js";import{p as r}from"./typography-BJ13ygNv.js";import{b as u}from"./theme-QoxxbpC5.js";import"./index-CDs2tPxN.js";const f=l`
   /* font-family: system-ui, sans-serif; */
   font-family: ${r};
   font-size: 16px;

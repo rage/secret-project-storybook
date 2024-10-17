@@ -1,6 +1,6 @@
-import{j as a}from"./emotion-serialize.browser.esm-Xr4f5Ts3.js";import{c as i,a as n}from"./emotion-css.esm-DPNEF3j8.js";import{n as w}from"./emotion-styled.browser.esm-OyKATk7d.js";import{r as $}from"./index-CDs2tPxN.js";import{p as T}from"./typography-Bdnj4Bgw.js";import{b as s}from"./theme-QoxxbpC5.js";import{e as c}from"./strings-x18Zmgj1.js";import{u as E}from"./useTranslation-B1yBCfgX.js";import"./extends-CCbyfPlC.js";import"./emotion-use-insertion-effect-with-fallbacks.browser.esm-BA1o8LyZ.js";const j=s.colors.red[600],O="#dedede",R=w.input`
+import{j as a}from"./emotion-serialize.browser.esm-Xr4f5Ts3.js";import{c as i,a as n}from"./emotion-css.esm-DPNEF3j8.js";import{n as w}from"./emotion-styled.browser.esm-OyKATk7d.js";import{r as $}from"./index-CDs2tPxN.js";import{p as T}from"./typography-BJ13ygNv.js";import{b as s}from"./theme-QoxxbpC5.js";import{e as c}from"./strings-x18Zmgj1.js";import{u as E}from"./useTranslation-B1yBCfgX.js";import"./extends-CCbyfPlC.js";import"./emotion-use-insertion-effect-with-fallbacks.browser.esm-BA1o8LyZ.js";const j=s.colors.red[600],O="#dedede",R=w.input`
   background: #fcfcfc;
-  border-width: 1.6px;
+  border-width: 2px;
   border-style: solid;
   border-radius: 3px;
   border-color: ${({error:o})=>o?j:O};
@@ -10,7 +10,7 @@ import{j as a}from"./emotion-serialize.browser.esm-Xr4f5Ts3.js";import{c as i,a 
   min-width: 20px;
   width: 100%;
   display: block;
-  font-size: 17px;
+  font-size: 16px;
 
   ${({disabled:o})=>o&&"cursor: not-allowed;"}
 

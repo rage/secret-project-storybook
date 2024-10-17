@@ -1,6 +1,6 @@
-import{j as r}from"./emotion-serialize.browser.esm-Xr4f5Ts3.js";import{c as n,a as s}from"./emotion-css.esm-DPNEF3j8.js";import{n as w}from"./emotion-styled.browser.esm-OyKATk7d.js";import{r as $}from"./index-CDs2tPxN.js";import{p as F}from"./typography-Bdnj4Bgw.js";import{b as d}from"./theme-QoxxbpC5.js";import{e as m}from"./strings-x18Zmgj1.js";import{u as _}from"./useTranslation-B1yBCfgX.js";import"./extends-CCbyfPlC.js";import"./emotion-use-insertion-effect-with-fallbacks.browser.esm-BA1o8LyZ.js";const E=d.colors.red[600],q="#dedede",S=w.input`
+import{j as r}from"./emotion-serialize.browser.esm-Xr4f5Ts3.js";import{c as n,a as s}from"./emotion-css.esm-DPNEF3j8.js";import{n as w}from"./emotion-styled.browser.esm-OyKATk7d.js";import{r as $}from"./index-CDs2tPxN.js";import{p as F}from"./typography-BJ13ygNv.js";import{b as d}from"./theme-QoxxbpC5.js";import{e as m}from"./strings-x18Zmgj1.js";import{u as _}from"./useTranslation-B1yBCfgX.js";import"./extends-CCbyfPlC.js";import"./emotion-use-insertion-effect-with-fallbacks.browser.esm-BA1o8LyZ.js";const E=d.colors.red[600],q="#dedede",S=w.input`
   background: #fcfcfc;
-  border-width: 1.6px;
+  border-width: 2px;
   border-style: solid;
   border-radius: 3px;
   border-color: ${({error:a})=>a?E:q};

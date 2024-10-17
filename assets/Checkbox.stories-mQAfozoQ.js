@@ -1,4 +1,4 @@
-import{j as r}from"./emotion-serialize.browser.esm-Xr4f5Ts3.js";import{c as n,a as s}from"./emotion-css.esm-DPNEF3j8.js";import{n as x}from"./emotion-styled.browser.esm-OyKATk7d.js";import{r as k}from"./index-CDs2tPxN.js";import{p as y}from"./typography-Bdnj4Bgw.js";import{b as v}from"./theme-QoxxbpC5.js";import"./extends-CCbyfPlC.js";import"./emotion-use-insertion-effect-with-fallbacks.browser.esm-BA1o8LyZ.js";const C="#F76D82",_="#787878",E=x.label`
+import{j as r}from"./emotion-serialize.browser.esm-Xr4f5Ts3.js";import{c as n,a as s}from"./emotion-css.esm-DPNEF3j8.js";import{n as x}from"./emotion-styled.browser.esm-OyKATk7d.js";import{r as k}from"./index-CDs2tPxN.js";import{p as y}from"./typography-BJ13ygNv.js";import{b as v}from"./theme-QoxxbpC5.js";import"./extends-CCbyfPlC.js";import"./emotion-use-insertion-effect-with-fallbacks.browser.esm-BA1o8LyZ.js";const C="#F76D82",_="#787878",E=x.label`
   font-family: ${y};
   font-size: 1.1rem;
   line-height: 1.1;
