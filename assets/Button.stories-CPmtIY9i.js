@@ -1,4 +1,4 @@
-import{j as a}from"./jsx-runtime-CLpGMVip.js";import{n}from"./emotion-styled.browser.esm-CDpaQ36c.js";import{r as N}from"./index-BAAwwy_G.js";import{h as O,f as Y}from"./typography-BJ13ygNv.js";import{t as r,b as c}from"./theme-QoxxbpC5.js";import"./extends-CF3RwP-h.js";import"./emotion-serialize.esm-CH7fXiIe.js";const w=16,o=e=>`@media (min-width: ${e}rem)`,U={xxxs:o(2),xxs:o(25),xs:o(30),sm:o(36),md:o(48),lg:o(62),xl:o(75),xxl:o(87.5),xxxl:o(100),xxxxl:o(125),xxxxxl:o(150)},s=`
+import{j as a}from"./jsx-runtime-CLpGMVip.js";import{n}from"./emotion-styled.browser.esm-CDpaQ36c.js";import{r as N}from"./index-BAAwwy_G.js";import{h as O,f as Y}from"./typography-BJ13ygNv.js";import{t as r,b as c}from"./theme-QoxxbpC5.js";import"./extends-CF3RwP-h.js";import"./emotion-serialize.esm-CH7fXiIe.js";const w=16,o=e=>`@media (min-width: ${e}rem)`,U={xxxs:o(2),xxs:o(25),xs:o(30),sm:o(36),md:o(48),lg:o(62),xl:o(75),xxl:o(87.5),xxxl:o(100),xxxxl:o(125),xxxxxl:o(150)},s=e=>`
   position: relative;
   display: inline-block;
   padding: ${r.buttonSizes.large.padding};
@@ -47,10 +47,14 @@ import{j as a}from"./jsx-runtime-CLpGMVip.js";import{n}from"./emotion-styled.bro
     text-decoration: none;
   }
 
-
   ${U.sm} {
     white-space: nowrap;
   }
+
+  ${e.fullWidth&&`
+    width: 100%;
+    display: block;
+  `}
 `,I=e=>`
     text-transform: ${e.transform};
     padding: ${r.buttonSizes[e.size].padding};
@@ -98,7 +102,7 @@ import{j as a}from"./jsx-runtime-CLpGMVip.js";import{n}from"./emotion-styled.bro
       background-color: ${r.secondary.disabledBg};
       border-color: ${r.secondary.disabledBorder};
     }
-  `,A=e=>`
+  `,W=e=>`
     text-transform: ${e.transform};
     padding: ${r.buttonSizes[e.size].padding};
 
@@ -123,7 +127,7 @@ import{j as a}from"./jsx-runtime-CLpGMVip.js";import{n}from"./emotion-styled.bro
       background-color: ${r.reject.disabledBg};
       border-color: ${r.reject.disabledBorder};
     }
-  `,W=e=>`
+  `,A=e=>`
     text-transform: ${e.transform};
     padding: ${r.buttonSizes[e.size].padding};
 
@@ -177,10 +181,10 @@ import{j as a}from"./jsx-runtime-CLpGMVip.js";import{n}from"./emotion-styled.bro
   ${P}
 `,F=n.button`
   ${s}
-  ${A}
+  ${W}
 `,H=n.button`
   ${s}
-  ${W}
+  ${A}
 `,M=n.button`
   ${s}
   ${D}
@@ -192,32 +196,32 @@ import{j as a}from"./jsx-runtime-CLpGMVip.js";import{n}from"./emotion-styled.bro
   ${C}
 `;n.label`
   ${s}
-`;const b=N.forwardRef((e,t)=>{switch(e.variant){case"primary":return a.jsx(y,{ref:t,...e});case"secondary":return a.jsx(p,{ref:t,...e});case"reject":return a.jsx(F,{ref:t,...e});case"tertiary":return a.jsx(H,{ref:t,...e});case"outlined":return a.jsx(p,{ref:t,...e});case"blue":return a.jsx(M,{ref:t,...e});case"white":return a.jsx(q,{ref:t,...e});case"icon":return a.jsx(V,{ref:t,...e});default:return a.jsx(y,{ref:t,...e})}});b.displayName="Button";try{b.displayName="Button",b.__docgenInfo={description:"",displayName:"Button",props:{variant:{defaultValue:null,description:"",name:"variant",required:!0,type:{name:"enum",value:[{value:'"primary"'},{value:'"secondary"'},{value:'"reject"'},{value:'"tertiary"'},{value:'"outlined"'},{value:'"blue"'},{value:'"white"'},{value:'"icon"'}]}},size:{defaultValue:null,description:"",name:"size",required:!0,type:{name:"enum",value:[{value:'"large"'},{value:'"medium"'},{value:'"small"'}]}},transform:{defaultValue:null,description:"",name:"transform",required:!1,type:{name:"enum",value:[{value:'"none"'},{value:'"capitalize"'},{value:'"uppercase"'},{value:'"lowercase"'}]}}}}}catch{}const er={component:b,parameters:{docs:{description:{component:"Extends the native HTML button element with some additional props, such as variant and size. All props available on the regular HTML button also work with this component. See: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button."}}}},i={args:{variant:"primary",size:"medium",children:"I am a button"}},d={args:{...i.args,variant:"secondary"}},l={args:{...i.args,variant:"tertiary"}},u={args:{variant:"primary",size:"large",children:"I am a button"}},m={args:{variant:"primary",size:"small",children:"I am a button"}};var g,$,x;i.parameters={...i.parameters,docs:{...(g=i.parameters)==null?void 0:g.docs,source:{originalSource:`{
+`;const b=N.forwardRef((e,t)=>{switch(e.variant){case"primary":return a.jsx(y,{ref:t,...e});case"secondary":return a.jsx(p,{ref:t,...e});case"reject":return a.jsx(F,{ref:t,...e});case"tertiary":return a.jsx(H,{ref:t,...e});case"outlined":return a.jsx(p,{ref:t,...e});case"blue":return a.jsx(M,{ref:t,...e});case"white":return a.jsx(q,{ref:t,...e});case"icon":return a.jsx(V,{ref:t,...e});default:return a.jsx(y,{ref:t,...e})}});b.displayName="Button";try{b.displayName="Button",b.__docgenInfo={description:"",displayName:"Button",props:{variant:{defaultValue:null,description:"",name:"variant",required:!0,type:{name:"enum",value:[{value:'"primary"'},{value:'"secondary"'},{value:'"reject"'},{value:'"tertiary"'},{value:'"outlined"'},{value:'"blue"'},{value:'"white"'},{value:'"icon"'}]}},size:{defaultValue:null,description:"",name:"size",required:!0,type:{name:"enum",value:[{value:'"large"'},{value:'"medium"'},{value:'"small"'}]}},transform:{defaultValue:null,description:"",name:"transform",required:!1,type:{name:"enum",value:[{value:'"none"'},{value:'"capitalize"'},{value:'"uppercase"'},{value:'"lowercase"'}]}},fullWidth:{defaultValue:null,description:"",name:"fullWidth",required:!1,type:{name:"boolean"}}}}}catch{}const er={component:b,parameters:{docs:{description:{component:"Extends the native HTML button element with some additional props, such as variant and size. All props available on the regular HTML button also work with this component. See: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button."}}}},i={args:{variant:"primary",size:"medium",children:"I am a button"}},d={args:{...i.args,variant:"secondary"}},l={args:{...i.args,variant:"tertiary"}},u={args:{variant:"primary",size:"large",children:"I am a button"}},m={args:{variant:"primary",size:"small",children:"I am a button"}};var $,g,x;i.parameters={...i.parameters,docs:{...($=i.parameters)==null?void 0:$.docs,source:{originalSource:`{
   args: {
     variant: "primary",
     size: "medium",
     children: "I am a button"
   }
-} satisfies StoryType`,...(x=($=i.parameters)==null?void 0:$.docs)==null?void 0:x.source}}};var T,S,v;d.parameters={...d.parameters,docs:{...(T=d.parameters)==null?void 0:T.docs,source:{originalSource:`{
+} satisfies StoryType`,...(x=(g=i.parameters)==null?void 0:g.docs)==null?void 0:x.source}}};var T,S,v;d.parameters={...d.parameters,docs:{...(T=d.parameters)==null?void 0:T.docs,source:{originalSource:`{
   args: {
     ...Primary.args,
     variant: "secondary"
   }
-} satisfies StoryType`,...(v=(S=d.parameters)==null?void 0:S.docs)==null?void 0:v.source}}};var B,h,_;l.parameters={...l.parameters,docs:{...(B=l.parameters)==null?void 0:B.docs,source:{originalSource:`{
+} satisfies StoryType`,...(v=(S=d.parameters)==null?void 0:S.docs)==null?void 0:v.source}}};var B,h,f;l.parameters={...l.parameters,docs:{...(B=l.parameters)==null?void 0:B.docs,source:{originalSource:`{
   args: {
     ...Primary.args,
     variant: "tertiary"
   }
-} satisfies StoryType`,...(_=(h=l.parameters)==null?void 0:h.docs)==null?void 0:_.source}}};var f,E,z;u.parameters={...u.parameters,docs:{...(f=u.parameters)==null?void 0:f.docs,source:{originalSource:`{
+} satisfies StoryType`,...(f=(h=l.parameters)==null?void 0:h.docs)==null?void 0:f.source}}};var _,E,z;u.parameters={...u.parameters,docs:{...(_=u.parameters)==null?void 0:_.docs,source:{originalSource:`{
   args: {
     variant: "primary",
     size: "large",
     children: "I am a button"
   }
-} satisfies StoryType`,...(z=(E=u.parameters)==null?void 0:E.docs)==null?void 0:z.source}}};var j,L,k;m.parameters={...m.parameters,docs:{...(j=m.parameters)==null?void 0:j.docs,source:{originalSource:`{
+} satisfies StoryType`,...(z=(E=u.parameters)==null?void 0:E.docs)==null?void 0:z.source}}};var j,k,L;m.parameters={...m.parameters,docs:{...(j=m.parameters)==null?void 0:j.docs,source:{originalSource:`{
   args: {
     variant: "primary",
     size: "small",
     children: "I am a button"
   }
-} satisfies StoryType`,...(k=(L=m.parameters)==null?void 0:L.docs)==null?void 0:k.source}}};const tr=["Primary","Secondary","Tertiary","Large","Small"];export{u as Large,i as Primary,d as Secondary,m as Small,l as Tertiary,tr as __namedExportsOrder,er as default};
+} satisfies StoryType`,...(L=(k=m.parameters)==null?void 0:k.docs)==null?void 0:L.source}}};const tr=["Primary","Secondary","Tertiary","Large","Small"];export{u as Large,i as Primary,d as Secondary,m as Small,l as Tertiary,tr as __namedExportsOrder,er as default};
