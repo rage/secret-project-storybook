@@ -31,4 +31,4 @@ import{j as A}from"./jsx-runtime-CLpGMVip.js";import"./index-BAAwwy_G.js";import
   animation-iteration-count: infinite, 1;
   animation-delay: 400ms;
   animation-fill-mode: forwards;
-`,j=r=>A.jsx(K,{className:V,...r});try{j.displayName="Spinner",j.__docgenInfo={description:"",displayName:"Spinner",props:{variant:{defaultValue:null,description:"",name:"variant",required:!0,type:{name:"enum",value:[{value:'"small"'},{value:'"medium"'},{value:'"large"'}]}},disableMargin:{defaultValue:null,description:"",name:"disableMargin",required:!1,type:{name:"boolean"}}}}}catch{}export{j as S};
+`,j=r=>A.jsx(K,{className:V,...r});try{j.displayName="Spinner",j.__docgenInfo={description:"",displayName:"Spinner",props:{variant:{defaultValue:null,description:"",name:"variant",required:!0,type:{name:"enum",value:[{value:'"large"'},{value:'"medium"'},{value:'"small"'}]}},disableMargin:{defaultValue:null,description:"",name:"disableMargin",required:!1,type:{name:"boolean"}}}}}catch{}export{j as S};
