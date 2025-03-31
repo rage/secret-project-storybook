@@ -17,8 +17,8 @@ import{j as A}from"./jsx-runtime-CLpGMVip.js";import"./index-BAAwwy_G.js";import
 }
 `,M={small:{width:"16px",height:"16px"},medium:{width:"30px",height:"30px"},large:{width:"42px",height:"42px"}},K=q.div`
   margin: ${r=>r.disableMargin?"0":"1rem"};
-  width: ${r=>M[r.variant].width};
-  height: ${r=>M[r.variant].height};
+  width: ${r=>M[r.variant||"medium"].width};
+  height: ${r=>M[r.variant||"medium"].height};
   border: 5px solid #f1f1f1;
   border-bottom-color: ${F.colors.green[500]};
   border-radius: 50%;
@@ -31,4 +31,4 @@ import{j as A}from"./jsx-runtime-CLpGMVip.js";import"./index-BAAwwy_G.js";import
   animation-iteration-count: infinite, 1;
   animation-delay: 400ms;
   animation-fill-mode: forwards;
-`,j=r=>A.jsx(K,{className:V,...r});try{j.displayName="Spinner",j.__docgenInfo={description:"",displayName:"Spinner",props:{variant:{defaultValue:null,description:"",name:"variant",required:!0,type:{name:"enum",value:[{value:'"large"'},{value:'"medium"'},{value:'"small"'}]}},disableMargin:{defaultValue:null,description:"",name:"disableMargin",required:!1,type:{name:"boolean"}}}}}catch{}export{j as S};
+`,j=r=>A.jsx(K,{className:V,...r});try{j.displayName="Spinner",j.__docgenInfo={description:"",displayName:"Spinner",props:{variant:{defaultValue:null,description:"",name:"variant",required:!1,type:{name:"enum",value:[{value:'"small"'},{value:'"medium"'},{value:'"large"'}]}},disableMargin:{defaultValue:null,description:"",name:"disableMargin",required:!1,type:{name:"boolean"}}}}}catch{}export{j as S};
