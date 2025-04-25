@@ -16,7 +16,6 @@ import{j as a}from"./jsx-runtime-CLpGMVip.js";import{n}from"./emotion-styled.bro
   letter-spacing: 0.02em;
   transition: all 150ms linear;
   border: 2.5px solid transparent;
-  z-index: 1;
   white-space: nowrap;
 
   color: ${r.primary.text};
@@ -158,6 +157,7 @@ import{j as a}from"./jsx-runtime-CLpGMVip.js";import{n}from"./emotion-styled.bro
       color: ${r.tertiary.hoverText};
       box-shadow: 0 0 0 1px ${r.tertiary.bg};
       border: 1.5px solid ${r.tertiary.bg};
+      background-color: ${r.tertiary.hoverBg};
     }
 
     &:active {
@@ -273,10 +273,10 @@ import{j as a}from"./jsx-runtime-CLpGMVip.js";import{n}from"./emotion-styled.bro
     size: "large",
     children: "I am a button"
   }
-} satisfies StoryType`,...(E=(_=l.parameters)==null?void 0:_.docs)==null?void 0:E.source}}};var z,k,j;u.parameters={...u.parameters,docs:{...(z=u.parameters)==null?void 0:z.docs,source:{originalSource:`{
+} satisfies StoryType`,...(E=(_=l.parameters)==null?void 0:_.docs)==null?void 0:E.source}}};var k,z,j;u.parameters={...u.parameters,docs:{...(k=u.parameters)==null?void 0:k.docs,source:{originalSource:`{
   args: {
     variant: "primary",
     size: "small",
     children: "I am a button"
   }
-} satisfies StoryType`,...(j=(k=u.parameters)==null?void 0:k.docs)==null?void 0:j.source}}};const ar=["Primary","Secondary","Tertiary","Large","Small"];export{l as Large,c as Primary,i as Secondary,u as Small,d as Tertiary,ar as __namedExportsOrder,tr as default};
+} satisfies StoryType`,...(j=(z=u.parameters)==null?void 0:z.docs)==null?void 0:j.source}}};const ar=["Primary","Secondary","Tertiary","Large","Small"];export{l as Large,c as Primary,i as Secondary,u as Small,d as Tertiary,ar as __namedExportsOrder,tr as default};
