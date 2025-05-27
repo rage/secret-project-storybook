@@ -1,4 +1,4 @@
-import{j as A}from"./jsx-runtime-CLpGMVip.js";import"./index-BAAwwy_G.js";import{s as E}from"./emotion-utils.browser.esm-D8RxJ_4a.js";import{n as q}from"./emotion-styled.browser.esm-D7Zr_4sy.js";import{b as F}from"./theme-QoxxbpC5.js";var x={exports:{}},t={};/** @license React v16.13.1
+import{j as A}from"./jsx-runtime-CLpGMVip.js";import"./index-CZMpeKRu.js";import{s as E}from"./emotion-utils.browser.esm-D8RxJ_4a.js";import{n as q}from"./emotion-styled.browser.esm-yr_-r2v3.js";import{b as F}from"./theme-QoxxbpC5.js";var x={exports:{}},t={};/** @license React v16.13.1
  * react-is.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -31,4 +31,4 @@ import{j as A}from"./jsx-runtime-CLpGMVip.js";import"./index-BAAwwy_G.js";import
   animation-iteration-count: infinite, 1;
   animation-delay: 400ms;
   animation-fill-mode: forwards;
-`,j=r=>A.jsx(K,{className:V,...r});try{j.displayName="Spinner",j.__docgenInfo={description:"",displayName:"Spinner",props:{variant:{defaultValue:null,description:"",name:"variant",required:!1,type:{name:"enum",value:[{value:'"small"'},{value:'"medium"'},{value:'"large"'}]}},disableMargin:{defaultValue:null,description:"",name:"disableMargin",required:!1,type:{name:"boolean"}}}}}catch{}export{j as S};
+`,j=r=>A.jsx(K,{className:V,...r});try{j.displayName="Spinner",j.__docgenInfo={description:"",displayName:"Spinner",props:{variant:{defaultValue:null,description:"",name:"variant",required:!1,type:{name:"enum",value:[{value:'"large"'},{value:'"medium"'},{value:'"small"'}]}},disableMargin:{defaultValue:null,description:"",name:"disableMargin",required:!1,type:{name:"boolean"}}}}}catch{}export{j as S};
