@@ -228,41 +228,41 @@ import{j as a}from"./jsx-runtime-CLpGMVip.js";import{n}from"./emotion-styled.bro
   `,m=n.button`
   ${s}
   ${U}
-`,$=n.button`
+`,g=n.button`
   ${s}
   ${C}
 `,D=n.button`
   ${s}
   ${F}
-`,H=n.button`
-  ${s}
-  ${P}
-`,M=n.button`
-  ${s}
-  ${W}
 `,q=n.button`
   ${s}
+  ${P}
+`,H=n.button`
+  ${s}
+  ${W}
+`,M=n.button`
+  ${s}
   ${R}
-`,G=n.button`
+`,V=n.button`
   ${s}
   ${I}
-`,V=n.button`
+`,G=n.button`
   ${s}
   ${A}
 `;n.label`
   ${s}
-`;const b=w.forwardRef((e,o)=>{switch(e.variant){case"primary":return a.jsx(m,{ref:o,...e});case"secondary":return a.jsx($,{ref:o,...e});case"reject":return a.jsx(D,{ref:o,...e});case"tertiary":return a.jsx(H,{ref:o,...e});case"outlined":return a.jsx($,{ref:o,...e});case"blue":return a.jsx(M,{ref:o,...e});case"white":return a.jsx(q,{ref:o,...e});case"icon":return a.jsx(G,{ref:o,...e});case"green":return a.jsx(V,{ref:o,...e});default:return a.jsx(m,{ref:o,...e})}});b.displayName="Button";try{b.displayName="Button",b.__docgenInfo={description:"",displayName:"Button",props:{variant:{defaultValue:null,description:"",name:"variant",required:!0,type:{name:"enum",value:[{value:'"primary"'},{value:'"secondary"'},{value:'"reject"'},{value:'"tertiary"'},{value:'"outlined"'},{value:'"blue"'},{value:'"white"'},{value:'"icon"'},{value:'"green"'}]}},size:{defaultValue:null,description:"",name:"size",required:!0,type:{name:"enum",value:[{value:'"large"'},{value:'"medium"'},{value:'"small"'}]}},transform:{defaultValue:null,description:"",name:"transform",required:!1,type:{name:"enum",value:[{value:'"none"'},{value:'"capitalize"'},{value:'"uppercase"'},{value:'"lowercase"'}]}},fullWidth:{defaultValue:null,description:"",name:"fullWidth",required:!1,type:{name:"boolean"}}}}}catch{}const tr={component:b,parameters:{docs:{description:{component:"Extends the native HTML button element with some additional props, such as variant and size. All props available on the regular HTML button also work with this component. See: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button."}}}},c={args:{variant:"primary",size:"medium",children:"I am a button"}},i={args:{...c.args,variant:"secondary"}},d={args:{...c.args,variant:"tertiary"}},l={args:{variant:"primary",size:"large",children:"I am a button"}},u={args:{variant:"primary",size:"small",children:"I am a button"}};var g,y,p;c.parameters={...c.parameters,docs:{...(g=c.parameters)==null?void 0:g.docs,source:{originalSource:`{
+`;const b=w.forwardRef((e,o)=>{switch(e.variant){case"primary":return a.jsx(m,{ref:o,...e});case"secondary":return a.jsx(g,{ref:o,...e});case"reject":return a.jsx(D,{ref:o,...e});case"tertiary":return a.jsx(q,{ref:o,...e});case"outlined":return a.jsx(g,{ref:o,...e});case"blue":return a.jsx(H,{ref:o,...e});case"white":return a.jsx(M,{ref:o,...e});case"icon":return a.jsx(V,{ref:o,...e});case"green":return a.jsx(G,{ref:o,...e});default:return a.jsx(m,{ref:o,...e})}});b.displayName="Button";try{b.displayName="Button",b.__docgenInfo={description:"",displayName:"Button",props:{variant:{defaultValue:null,description:"",name:"variant",required:!0,type:{name:"enum",value:[{value:'"primary"'},{value:'"secondary"'},{value:'"reject"'},{value:'"tertiary"'},{value:'"outlined"'},{value:'"blue"'},{value:'"white"'},{value:'"icon"'},{value:'"green"'}]}},size:{defaultValue:null,description:"",name:"size",required:!0,type:{name:"enum",value:[{value:'"small"'},{value:'"medium"'},{value:'"large"'}]}},transform:{defaultValue:null,description:"",name:"transform",required:!1,type:{name:"enum",value:[{value:'"capitalize"'},{value:'"uppercase"'},{value:'"none"'},{value:'"lowercase"'}]}},fullWidth:{defaultValue:null,description:"",name:"fullWidth",required:!1,type:{name:"boolean"}},"data-testid":{defaultValue:null,description:"",name:"data-testid",required:!1,type:{name:"string"}}}}}catch{}const tr={component:b,parameters:{docs:{description:{component:"Extends the native HTML button element with some additional props, such as variant and size. All props available on the regular HTML button also work with this component. See: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button."}}}},i={args:{variant:"primary",size:"medium",children:"I am a button"}},c={args:{...i.args,variant:"secondary"}},d={args:{...i.args,variant:"tertiary"}},l={args:{variant:"primary",size:"large",children:"I am a button"}},u={args:{variant:"primary",size:"small",children:"I am a button"}};var $,y,p;i.parameters={...i.parameters,docs:{...($=i.parameters)==null?void 0:$.docs,source:{originalSource:`{
   args: {
     variant: "primary",
     size: "medium",
     children: "I am a button"
   }
-} satisfies StoryType`,...(p=(y=c.parameters)==null?void 0:y.docs)==null?void 0:p.source}}};var T,x,S;i.parameters={...i.parameters,docs:{...(T=i.parameters)==null?void 0:T.docs,source:{originalSource:`{
+} satisfies StoryType`,...(p=(y=i.parameters)==null?void 0:y.docs)==null?void 0:p.source}}};var T,x,S;c.parameters={...c.parameters,docs:{...(T=c.parameters)==null?void 0:T.docs,source:{originalSource:`{
   args: {
     ...Primary.args,
     variant: "secondary"
   }
-} satisfies StoryType`,...(S=(x=i.parameters)==null?void 0:x.docs)==null?void 0:S.source}}};var v,h,B;d.parameters={...d.parameters,docs:{...(v=d.parameters)==null?void 0:v.docs,source:{originalSource:`{
+} satisfies StoryType`,...(S=(x=c.parameters)==null?void 0:x.docs)==null?void 0:S.source}}};var v,h,B;d.parameters={...d.parameters,docs:{...(v=d.parameters)==null?void 0:v.docs,source:{originalSource:`{
   args: {
     ...Primary.args,
     variant: "tertiary"
@@ -279,4 +279,4 @@ import{j as a}from"./jsx-runtime-CLpGMVip.js";import{n}from"./emotion-styled.bro
     size: "small",
     children: "I am a button"
   }
-} satisfies StoryType`,...(j=(z=u.parameters)==null?void 0:z.docs)==null?void 0:j.source}}};const ar=["Primary","Secondary","Tertiary","Large","Small"];export{l as Large,c as Primary,i as Secondary,u as Small,d as Tertiary,ar as __namedExportsOrder,tr as default};
+} satisfies StoryType`,...(j=(z=u.parameters)==null?void 0:z.docs)==null?void 0:j.source}}};const ar=["Primary","Secondary","Tertiary","Large","Small"];export{l as Large,i as Primary,c as Secondary,u as Small,d as Tertiary,ar as __namedExportsOrder,tr as default};
