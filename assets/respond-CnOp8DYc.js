@@ -1,0 +1,1 @@
+const x=s=>`@media (min-width: ${s}rem)`,l={xxxs:2,xxs:25,xs:30,sm:36,md:48,lg:62,xl:75,xxl:87.5,xxxl:100,xxxxl:125,xxxxxl:150},m={xxxs:x(l.xxxs),xxs:x(l.xxs),xs:x(l.xs),sm:x(l.sm),md:x(l.md),lg:x(l.lg),xl:x(l.xl),xxl:x(l.xxl),xxxl:x(l.xxxl),xxxxl:x(l.xxxxl),xxxxxl:x(l.xxxxxl)};export{m as r};
