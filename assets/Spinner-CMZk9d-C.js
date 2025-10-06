@@ -31,4 +31,4 @@ import{j as q}from"./jsx-runtime-D_zvdyIk.js";import{h as F,E as z,c as C,s as D
   animation-iteration-count: infinite, 1;
   animation-delay: 400ms;
   animation-fill-mode: forwards;
-`,N=r=>q.jsx(G,{className:K,...r});try{N.displayName="Spinner",N.__docgenInfo={description:"",displayName:"Spinner",props:{variant:{defaultValue:null,description:"",name:"variant",required:!1,type:{name:"enum",value:[{value:'"large"'},{value:'"medium"'},{value:'"small"'}]}},disableMargin:{defaultValue:null,description:"",name:"disableMargin",required:!1,type:{name:"boolean"}}}}}catch{}export{N as S};
+`,N=r=>q.jsx(G,{className:K,...r});try{N.displayName="Spinner",N.__docgenInfo={description:"",displayName:"Spinner",props:{variant:{defaultValue:null,description:"",name:"variant",required:!1,type:{name:"enum",value:[{value:'"small"'},{value:'"large"'},{value:'"medium"'}]}},disableMargin:{defaultValue:null,description:"",name:"disableMargin",required:!1,type:{name:"boolean"}}}}}catch{}export{N as S};
