@@ -32,4 +32,4 @@ import{j as F}from"./jsx-runtime-D_zvdyIk.js";import{h as z,E as C,c as D,s as J
   animation-iteration-count: infinite, 1;
   animation-delay: 400ms;
   animation-fill-mode: forwards;
-`,A=r=>F.jsx(G,{className:K,...r});try{A.displayName="Spinner",A.__docgenInfo={description:"",displayName:"Spinner",props:{variant:{defaultValue:null,description:"",name:"variant",required:!1,type:{name:"enum",value:[{value:'"small"'},{value:'"large"'},{value:'"medium"'},{value:'"placeholder"'}]}},disableMargin:{defaultValue:null,description:"",name:"disableMargin",required:!1,type:{name:"boolean"}}}}}catch{}export{A as S};
+`,A=r=>F.jsx(G,{className:K,...r});try{A.displayName="Spinner",A.__docgenInfo={description:"",displayName:"Spinner",props:{variant:{defaultValue:null,description:"",name:"variant",required:!1,type:{name:"enum",value:[{value:'"large"'},{value:'"medium"'},{value:'"small"'},{value:'"placeholder"'}]}},disableMargin:{defaultValue:null,description:"",name:"disableMargin",required:!1,type:{name:"boolean"}}}}}catch{}export{A as S};
