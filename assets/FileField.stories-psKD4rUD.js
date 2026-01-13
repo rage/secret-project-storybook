@@ -1,4 +1,4 @@
-import{j as r}from"./jsx-runtime-D_zvdyIk.js";import{c as n,a as l}from"./emotion-css.esm-BvLEAwLp.js";import{s as v}from"./emotion-styled.browser.esm-uiAl99qX.js";import{r as w}from"./index-0yr9KlQE.js";import{p as E}from"./typography-UEJTSqhr.js";import{b as s}from"./theme-DgIg-lup.js";import{e as d}from"./strings-x18Zmgj1.js";import{u as F}from"./useTranslation-B14mqBe9.js";import"./emotion-utils.browser.esm-YKnV_D65.js";import"./extends-CF3RwP-h.js";const T=s.colors.red[600],j="#dedede",O=v.input`
+import{j as r}from"./jsx-runtime-D_zvdyIk.js";import{c as n,a as l}from"./emotion-css.esm-BvLEAwLp.js";import{s as v}from"./emotion-styled.browser.esm-uiAl99qX.js";import{r as w}from"./index-0yr9KlQE.js";import{p as E}from"./typography-B78hKXS5.js";import{b as s}from"./theme-DgIg-lup.js";import{e as d}from"./strings-x18Zmgj1.js";import{u as F}from"./useTranslation-B14mqBe9.js";import"./emotion-utils.browser.esm-YKnV_D65.js";import"./extends-CF3RwP-h.js";const T=s.colors.red[600],j="#dedede",O=v.input`
   background: #fcfcfc;
   border-width: 2px;
   border-style: solid;
