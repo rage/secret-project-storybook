@@ -12,7 +12,10 @@ import{j as T}from"./jsx-runtime-D_zvdyIk.js";import{c as Ft,a as X}from"./emoti
                 border-radius: 5px;
                 width: 95%;
                 max-width: ${a==="normal"?"700px":"1200px"};
-                ${i&&"overflow: hidden;"}
+                max-height: 90vh;
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
                 outline: none;
 
                 h1 {
@@ -26,6 +29,11 @@ import{j as T}from"./jsx-runtime-D_zvdyIk.js";import{c as Ft,a as X}from"./emoti
                   font-size: ${pe.h6};
                 }
               `),"data-testid":u??"dialog",children:T.jsxs("div",{className:X`
+                flex: 1;
+                min-height: 0;
+                display: flex;
+                flex-direction: column;
+                ${!i&&!o&&"overflow-y: auto;"}
                 ${!o&&"padding: 2rem 3rem;"}
               `,children:[e,n&&T.jsx(fn,{onDismiss:r})]})})})})}):null},Nn={component:vn,parameters:{docs:{description:{component:"A wrapper component for the native HTML dialog element with some additional props. All props available on the regular HTML dialog also work with this component. See: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog."}}}},z={args:{open:!1,onClose:()=>{console.log("onClose")},closeable:!0,noPadding:!1,width:"normal",children:T.jsxs(T.Fragment,{children:[T.jsx("h1",{children:"Heading inside dialog"}),T.jsx("p",{children:"Paragraph inside dialog"})]})}};var ke,Fe,Pe;z.parameters={...z.parameters,docs:{...(ke=z.parameters)==null?void 0:ke.docs,source:{originalSource:`{
   args: {
