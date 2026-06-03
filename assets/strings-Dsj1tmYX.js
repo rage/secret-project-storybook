@@ -1,0 +1,1 @@
+import{i as e}from"./preload-helper-usAeo7Bx.js";function t(e){return e===void 0?null:typeof e==`string`?e:e.message??e.type}var n=e((()=>{}));export{n,t};

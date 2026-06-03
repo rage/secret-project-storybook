@@ -1,1 +1,0 @@
-import{n as e}from"./chunk-jRWAZmH_.js";var t,n,r,i=e((()=>{t=e=>`@media (min-width: ${e}rem)`,n={xxxs:2,xxs:25,xs:30,sm:36,md:48,lg:62,xl:75,xxl:87.5,xxxl:100,xxxxl:125,xxxxxl:150},r={xxxs:t(n.xxxs),xxs:t(n.xxs),xs:t(n.xs),sm:t(n.sm),md:t(n.md),lg:t(n.lg),xl:t(n.xl),xxl:t(n.xxl),xxxl:t(n.xxxl),xxxxl:t(n.xxxxl),xxxxxl:t(n.xxxxxl)},n.md*16,n.lg*16,n.xl*16}));export{r as n,i as t};
