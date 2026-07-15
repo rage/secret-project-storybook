@@ -1,0 +1,10 @@
+import{i as e}from"./preload-helper-B45gAKPr.js";import{$ as t,Et as n,F as r,N as i,Ot as a,et as o,it as s,t as c}from"./iframe-6L8_Xta5.js";function l(){let{control:e}=o({defaultValues:{theme:`light`}});return(0,f.jsxs)(r,{name:`theme`,control:e,label:`Theme`,children:[(0,f.jsx)(i,{label:`Light`,value:`light`}),(0,f.jsx)(i,{label:`Dark`,value:`dark`}),(0,f.jsx)(i,{label:`System`,value:`system`})]})}function u(){let{control:e}=o({defaultValues:{delivery:``}}),{control:t}=o({defaultValues:{orientation:`left`}});return(0,f.jsxs)(`div`,{className:p,children:[(0,f.jsxs)(r,{name:`delivery`,control:e,label:`Delivery speed`,errorMessage:`Choose one`,children:[(0,f.jsx)(i,{label:`Standard`,value:`standard`}),(0,f.jsx)(i,{label:`Express`,value:`express`})]}),(0,f.jsxs)(r,{name:`orientation`,control:t,label:`Orientation`,orientation:`horizontal`,children:[(0,f.jsx)(i,{label:`Left`,value:`left`}),(0,f.jsx)(i,{label:`Right`,value:`right`})]})]})}function d(){let{control:e}=o({defaultValues:{choice:`alpha`}});return(0,f.jsxs)(r,{name:`choice`,control:e,label:`Controlled`,children:[(0,f.jsx)(i,{label:`Alpha`,value:`alpha`}),(0,f.jsx)(i,{label:`Beta`,value:`beta`})]})}var f,p,m,h,g,_,v;e((()=>{a(),t(),c(),f=s(),p=n`
+  display: grid;
+  gap: 24px;
+`,m={title:`Components/RadioGroup`,component:r},h={render:()=>(0,f.jsx)(l,{})},g={render:()=>(0,f.jsx)(u,{})},_={render:()=>(0,f.jsx)(d,{})},h.parameters={...h.parameters,docs:{...h.parameters?.docs,source:{originalSource:`{
+  render: () => <VerticalStory />
+} satisfies Story`,...h.parameters?.docs?.source}}},g.parameters={...g.parameters,docs:{...g.parameters?.docs,source:{originalSource:`{
+  render: () => <StatesStory />
+} satisfies Story`,...g.parameters?.docs?.source}}},_.parameters={..._.parameters,docs:{..._.parameters?.docs,source:{originalSource:`{
+  render: () => <ControlledRadioGroupStory />
+} satisfies Story`,..._.parameters?.docs?.source}}},v=[`Vertical`,`States`,`Controlled`]}))();export{_ as Controlled,g as States,h as Vertical,v as __namedExportsOrder,m as default};
