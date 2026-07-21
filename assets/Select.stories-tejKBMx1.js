@@ -1,0 +1,11 @@
+import{i as e}from"./preload-helper-B45gAKPr.js";import{$ as t,St as n,et as r,it as i,j as a,t as o,wt as s}from"./iframe-CAN3q5_A.js";function c(){let{control:e}=r({defaultValues:{letter:`b`}});return(0,d.jsx)(a,{name:`letter`,control:e,label:`Controlled`,options:[{value:`a`,label:`Option A`},{value:`b`,label:`Option B`},{value:`c`,label:`Option C`}]})}function l(){let{control:e}=r({defaultValues:{country:`fi`}});return(0,d.jsx)(a,{name:`country`,control:e,label:`Country`,options:m})}function u(){let{control:e}=r({defaultValues:{default:``,disabled:``,invalid:``}});return(0,d.jsxs)(`div`,{className:f,children:[(0,d.jsx)(a,{name:`default`,control:e,label:`Default`,options:[{value:`1`,label:`One`},{value:`2`,label:`Two`}],placeholder:`Choose`}),(0,d.jsx)(a,{name:`disabled`,control:e,label:`Disabled`,options:[{value:`1`,label:`One`}],isDisabled:!0}),(0,d.jsx)(a,{name:`invalid`,control:e,label:`Invalid`,options:[{value:`1`,label:`One`},{value:`2`,label:`Two`}],placeholder:`Choose`,errorMessage:`Selection required`})]})}var d,f,p,m,h,g,_,v;e((()=>{s(),t(),o(),d=i(),f=n`
+  display: grid;
+  gap: 16px;
+  max-width: 360px;
+`,p={title:`Components/Select`,component:a,parameters:{docs:{description:{component:"Custom select built on React Aria `useSelect`: the visible trigger is a native `button` (not `role=combobox` on the trigger). Screen readers still get the correct listbox relationship via React Aria; keyboard support follows the WAI-ARIA listbox pattern."}}}},m=[{value:`fi`,label:`Finland`},{value:`se`,label:`Sweden`},{value:`no`,label:`Norway`}],h={render:()=>(0,d.jsx)(l,{})},g={render:()=>(0,d.jsx)(u,{})},_={render:()=>(0,d.jsx)(c,{})},h.parameters={...h.parameters,docs:{...h.parameters?.docs,source:{originalSource:`{
+  render: () => <PlaygroundStory />
+} satisfies Story`,...h.parameters?.docs?.source}}},g.parameters={...g.parameters,docs:{...g.parameters?.docs,source:{originalSource:`{
+  render: () => <StatesStory />
+} satisfies Story`,...g.parameters?.docs?.source}}},_.parameters={..._.parameters,docs:{..._.parameters?.docs,source:{originalSource:`{
+  render: () => <ControlledSelectStory />
+} satisfies Story`,..._.parameters?.docs?.source}}},v=[`Playground`,`States`,`Controlled`]}))();export{_ as Controlled,h as Playground,g as States,v as __namedExportsOrder,p as default};
