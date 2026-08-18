@@ -1,1 +1,0 @@
-import{i as e}from"./preload-helper-B45gAKPr.js";function t(e){return e===void 0?null:typeof e==`string`?e:e.message??e.type}var n=e((()=>{}));export{n,t};

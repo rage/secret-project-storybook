@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";function t(e){return e===void 0?null:typeof e==`string`?e:e.message??e.type}function n(){return(n=e((()=>{})))()}export{n,t};
