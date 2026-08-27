@@ -1067,9 +1067,9 @@ import{a as e,n as t,t as n}from"./rolldown-runtime-DkW27tQK.js";import{t as r}f
   margin: 0;
   padding: 0;
   list-style: none;
-`})))()}function gT({state:e,listBoxRef:t,className:n,emptyState:r,...a}){let{t:o}=i(`shared-module`),s=_T.useRef(null),l=t??s,{listBoxProps:u}=F_(a,e,l),d=Array.from(e.collection);return d.length===0?(0,vT.jsx)(`div`,{className:$w,role:`presentation`,children:r??o(`listBox.noResults`)}):(0,vT.jsx)(`ul`,{...u,ref:l,className:c(Zw,n),children:d.map(t=>t.type===`section`?(0,vT.jsx)(uT,{section:t,state:e},t.key):(0,vT.jsx)(oT,{item:t,state:e},t.key))})}var _T,vT;function yT(){return(yT=t((()=>{l(),_T=e(r()),I_(),a(),aT(),lT(),hT(),vT=W()})))()}function bT({children:e,className:t,state:n,triggerRef:r,popoverRef:i,surfaceProps:a,placement:o=`bottom start`,offset:s=8,isNonModal:l=!1}){let d=xT.useRef(null),f=i??d,{popoverProps:p,underlayProps:m}=wv({popoverRef:f,triggerRef:r,placement:o,offset:s,isNonModal:l},n),h=r.current instanceof HTMLElement?r.current.offsetWidth:void 0,g=h===void 0?void 0:u`
-          --popover-trigger-width: ${h}px;
-        `;return(0,ST.jsx)(Pe,{disableFocusManagement:l,children:(0,ST.jsx)(`div`,{...m,className:CT,children:(0,ST.jsxs)(`div`,{...U(p,a),ref:f,className:c(Xw,wT,g,t,a?.className),children:[(0,ST.jsx)(ot,{onDismiss:n.close}),e,(0,ST.jsx)(ot,{onDismiss:n.close})]})})})}var xT,ST,CT,wT;function TT(){return(TT=t((()=>{l(),xT=e(r()),ke(),V(),tt(),Ev(),aT(),ST=W(),CT=u`
+`})))()}function gT({state:e,listBoxRef:t,className:n,emptyState:r,...a}){let{t:o}=i(`shared-module`),s=_T.useRef(null),l=t??s,{listBoxProps:u}=F_(a,e,l),d=Array.from(e.collection);return d.length===0?(0,vT.jsx)(`div`,{className:$w,role:`presentation`,children:r??o(`listBox.noResults`)}):(0,vT.jsx)(`ul`,{...u,ref:l,className:c(Zw,n),children:d.map(t=>t.type===`section`?(0,vT.jsx)(uT,{section:t,state:e},t.key):(0,vT.jsx)(oT,{item:t,state:e},t.key))})}var _T,vT;function yT(){return(yT=t((()=>{l(),_T=e(r()),I_(),a(),aT(),lT(),hT(),vT=W()})))()}function bT({children:e,className:t,state:n,triggerRef:r,popoverRef:i,surfaceProps:a,placement:o=`bottom start`,offset:s=8,isNonModal:l=!1}){let d=xT.useRef(null),f=i??d,{popoverProps:p,underlayProps:m,placement:h}=wv({popoverRef:f,triggerRef:r,placement:o,offset:s,isNonModal:l},n),g=h!==null,_=r.current instanceof HTMLElement?r.current.offsetWidth:void 0,v=_===void 0?void 0:u`
+          --popover-trigger-width: ${_}px;
+        `;return(0,ST.jsx)(Pe,{disableFocusManagement:l,children:(0,ST.jsx)(`div`,{...m,className:CT,children:(0,ST.jsxs)(`div`,{...U(p,a),style:{...p.style,...a?.style,...g?null:{pointerEvents:`none`}},ref:f,className:c(Xw,wT,v,t,a?.className),children:[(0,ST.jsx)(ot,{onDismiss:n.close}),e,(0,ST.jsx)(ot,{onDismiss:n.close})]})})})}var xT,ST,CT,wT;function TT(){return(TT=t((()=>{l(),xT=e(r()),ke(),V(),tt(),Ev(),aT(),ST=W(),CT=u`
   position: fixed;
   inset: 0;
   z-index: 20;
@@ -1842,7 +1842,7 @@ function print() { __p += __j.call(arguments, '') }
                       position: absolute;
                       left: 1rem;
                       top: 1.125rem;
-                    `,children:(0,MN.jsx)(wt,{size:16,weight:`bold`})}),(0,MN.jsx)(`input`,{className:IN,...me,ref:A})]}),ON(B)&&(0,MN.jsx)(gT,{...U(se,re),state:R,listBoxRef:B})]})}):null]}),ye?(0,MN.jsx)(`p`,{...le,role:`alert`,className:hC(l,!0),children:ye}):o?(0,MN.jsx)(`p`,{...ce,className:hC(l,!1),children:o}):null]})}var AN,jN,MN,NN,PN,FN,IN;function LN(){return(LN=t((()=>{l(),dN(),mN(),vN(),Tt(),AN=yN(),jN=e(r()),V(),Ar(),nb(),Qy(),d_(),or(),I(),xS(),OS(),DN(),ZC(),yT(),TT(),aT(),MN=W(),NN=u`
+                    `,children:(0,MN.jsx)(wt,{size:16,weight:`bold`})}),(0,MN.jsx)(`input`,{className:IN,...me,ref:A})]}),ON(B)&&(0,MN.jsx)(gT,{...U(se,re),shouldSelectOnPressUp:!1,state:R,listBoxRef:B})]})}):null]}),ye?(0,MN.jsx)(`p`,{...le,role:`alert`,className:hC(l,!0),children:ye}):o?(0,MN.jsx)(`p`,{...ce,className:hC(l,!1),children:o}):null]})}var AN,jN,MN,NN,PN,FN,IN;function LN(){return(LN=t((()=>{l(),dN(),mN(),vN(),Tt(),AN=yN(),jN=e(r()),V(),Ar(),nb(),Qy(),d_(),or(),I(),xS(),OS(),DN(),ZC(),yT(),TT(),aT(),MN=W(),NN=u`
   position: relative;
 `,PN=u`
   flex: 1 1 auto;
