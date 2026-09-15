@@ -1,4 +1,4 @@
-import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{r as t,t as n}from"./emotion-css.esm-DsoSFdsS.js";import{t as r}from"./jsx-runtime-DeHZSEgm.js";import{l as i,r as a}from"./atlas-icons-react-YOFwI17U.js";import{n as o,t as s}from"./styles-BtTBt5TU.js";var c,l;function u(){return(u=e((()=>{t(),i(),s(),c=r(),l=({children:e})=>(0,c.jsxs)(`div`,{className:n`
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{r as t,t as n}from"./emotion-css.esm-DsoSFdsS.js";import{t as r}from"./jsx-runtime-DeHZSEgm.js";import{m as i,s as a}from"./atlas-icons-react-CQxarVg9.js";import{n as o,t as s}from"./styles-BtTBt5TU.js";var c,l;function u(){return(u=e((()=>{t(),i(),s(),c=r(),l=({children:e})=>(0,c.jsxs)(`div`,{className:n`
         padding: 0.875rem 1rem;
         border-left: 3px solid ${o.colors.blue[500]};
         border-radius: 0 6px 6px 0;
