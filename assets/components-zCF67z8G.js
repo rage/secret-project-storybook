@@ -2300,6 +2300,8 @@ function print() { __p += __j.call(arguments, '') }
      unbroken value (a masked address, an id) overflows the value column. */
   grid-template-columns: minmax(0, max-content) minmax(0, 1fr);
   gap: var(--space-2) var(--space-4);
+  /* The label is smaller than its value; top-aligned, it would sit above the value's line. */
+  align-items: baseline;
   margin: 0;
 
   @media (max-width: ${EF}) {
@@ -2377,6 +2379,7 @@ function print() { __p += __j.call(arguments, '') }
   margin: 0;
   font-size: var(--font-size-4);
   font-weight: 600;
+  line-height: 1.3;
   overflow-wrap: break-word;
 `,u`
   flex: none;
@@ -2584,6 +2587,8 @@ function print() { __p += __j.call(arguments, '') }
   color: var(--color-gray-700);
   font-weight: 600;
 `,aI=({tone:e=`info`,heading:t,children:n,announce:r=!1,className:i})=>{let{icon:a,css:o}=tI[e];return(0,$F.jsxs)(`div`,{className:c(eI,o,i),role:r?e===`warning`||e===`danger`?`alert`:`status`:void 0,children:[(0,$F.jsx)(`span`,{className:nI,"aria-hidden":`true`,children:(0,$F.jsx)(a,{})}),(0,$F.jsxs)(`div`,{className:rI,children:[t?(0,$F.jsx)(`strong`,{className:iI,children:t}):null,n]})]})}})))()}function sI(){return(sI=t((()=>{l(),lM(),r(),Hb(),RT(),vT(),G(),u`
+  transform: translateY(-25%) rotate(45deg);
+`,u`
   display: grid;
   gap: var(--space-1);
   padding: var(--space-2);
@@ -3016,7 +3021,6 @@ function print() { __p += __j.call(arguments, '') }
   white-space: nowrap;
 `,CL=u`
   color: var(--color-gray-700);
-  font-variant-numeric: tabular-nums;
 `,wL=u`
   white-space: nowrap;
 `,TL=u`
@@ -3031,6 +3035,7 @@ function print() { __p += __j.call(arguments, '') }
     text-align: center;
   `,end:u`
     text-align: end;
+    font-variant-numeric: tabular-nums;
   `},kL=u`
   & tbody tr:hover > * {
     background: var(--color-clear-100);
