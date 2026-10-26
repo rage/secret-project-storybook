@@ -1,5 +1,0 @@
-import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{t}from"./react-BZJXY1be.js";import{i as n,n as r,r as i,t as a}from"./ErrorNotice-Dg84DmiP.js";import{t as o}from"./jsx-runtime-DeHZSEgm.js";import{n as s}from"./nullability-wl1JYvfZ.js";var c,l,u;function d(){return(d=e((()=>{t(),n(),c=o(),l=`frontendCrash`,u=({error:e,variant:t=`text`,contextMessage:n,maxHeightVH:o,listMaxHeightVH:u,announce:d,className:f})=>(0,c.jsx)(i,{error:e,density:t===l?r:a,...s({context:n,announce:d,className:f,maxHeight:o===void 0?void 0:`${o}vh`,detailsMaxHeight:u===void 0?void 0:`${u}vh`})})})))()}var f,p,m;function h(){return(h=e((()=>{d(),f={component:u,parameters:{docs:{description:{component:`Use this component to display an error banner. The error can be either a string or an Error object.`}}}},p={args:{error:`This is an error message.`}},p.parameters={...p.parameters,docs:{...p.parameters?.docs,source:{originalSource:`{
-  args: {
-    error: "This is an error message."
-  }
-} satisfies StoryType`,...p.parameters?.docs?.source}}},m=[`Example`]})))()}h();export{p as Example,m as __namedExportsOrder,f as default};
