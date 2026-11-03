@@ -148,6 +148,11 @@ import{a as e,n as t,t as n}from"./rolldown-runtime-DkW27tQK.js";import{t as r}f
     background: var(--field-disabled-bg);
     border-color: var(--field-disabled-border);
   }
+
+  &[data-disabled="true"][data-selected="true"] {
+    background: var(--field-disabled-fg);
+    border-color: var(--field-disabled-fg);
+  }
 `,$x=u`
   border-radius: 6px;
 `,eS=u`
