@@ -1,0 +1,10 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{r as t,t as n}from"./emotion-css.esm-D2eg9Mn3.js";import{t as r}from"./jsx-runtime-MKhVqBIO.js";import{j as i,n as a,nt as o,rt as s,tt as c}from"./iframe-CgHI3aZu.js";function l(){let{control:e}=o({defaultValues:{enabled:!1}});return(0,f.jsx)(i,{name:`enabled`,control:e,label:`Enable notifications`})}function u(){let{control:e}=o({defaultValues:{default:!1,checked:!0,disabled:!1,invalid:!1}});return(0,f.jsxs)(`div`,{className:p,children:[(0,f.jsx)(i,{name:`default`,control:e,label:`Default`}),(0,f.jsx)(i,{name:`checked`,control:e,label:`Checked`}),(0,f.jsx)(i,{name:`disabled`,control:e,label:`Disabled`,isDisabled:!0}),(0,f.jsx)(i,{name:`invalid`,control:e,label:`Invalid`,errorMessage:`This setting is required`})]})}function d(){let{control:e}=o({defaultValues:{enabled:!0}}),t=s({control:e,name:`enabled`});return(0,f.jsx)(i,{name:`enabled`,control:e,label:`Controlled (${t?`on`:`off`})`})}var f,p,m,h,g,_,v;function y(){return(y=e((()=>{t(),c(),a(),f=r(),p=n`
+  display: grid;
+  gap: 16px;
+`,m={title:`Components/Switch`,component:i},h={render:()=>(0,f.jsx)(l,{})},g={render:()=>(0,f.jsx)(u,{})},_={render:()=>(0,f.jsx)(d,{})},v=[`Playground`,`States`,`Controlled`],h.parameters={...h.parameters,docs:{...h.parameters?.docs,source:{originalSource:`{
+  render: () => <PlaygroundStory />
+} satisfies Story`,...h.parameters?.docs?.source}}},g.parameters={...g.parameters,docs:{...g.parameters?.docs,source:{originalSource:`{
+  render: () => <StatesStory />
+} satisfies Story`,...g.parameters?.docs?.source}}},_.parameters={..._.parameters,docs:{..._.parameters?.docs,source:{originalSource:`{
+  render: () => <ControlledSwitchStory />
+} satisfies Story`,..._.parameters?.docs?.source}}}})))()}y();export{_ as Controlled,h as Playground,g as States,v as __namedExportsOrder,m as default};
