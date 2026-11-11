@@ -1,4 +1,4 @@
-import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{r as t,t as n}from"./emotion-css.esm-D2eg9Mn3.js";import{t as r}from"./jsx-runtime-MKhVqBIO.js";import{$ as i,n as a,nt as o,tt as s}from"./iframe-BA8d9TS_.js";function c({defaultChecked:e=!1,...t}){let{control:n}=o({defaultValues:{accepted:e}});return(0,l.jsx)(i,{name:`accepted`,control:n,...t})}var l,u,d,f,p,m,h,g;function _(){return(_=e((()=>{t(),s(),a(),l=r(),u=n`
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{r as t,t as n}from"./emotion-css.esm-D2eg9Mn3.js";import{t as r}from"./jsx-runtime-MKhVqBIO.js";import{$ as i,n as a,nt as o,tt as s}from"./iframe-DL1E-Mhy.js";function c({defaultChecked:e=!1,...t}){let{control:n}=o({defaultValues:{accepted:e}});return(0,l.jsx)(i,{name:`accepted`,control:n,...t})}var l,u,d,f,p,m,h,g;function _(){return(_=e((()=>{t(),s(),a(),l=r(),u=n`
   display: grid;
   gap: 16px;
 `,d=n`
