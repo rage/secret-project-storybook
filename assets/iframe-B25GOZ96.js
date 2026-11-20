@@ -1,1 +1,0 @@
-import{t as e}from"./iframe-I_G0D-wE.js";e();
